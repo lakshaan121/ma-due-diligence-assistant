@@ -1,0 +1,27 @@
+# Environment / secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# FAISS index / cached data (regenerated at runtime)
+data/faiss_index/
+data/metadata.json
+data/metadata.db
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Tooling / test artifacts
+.pytest_cache/
+.env.*
+!.env.example
+*.log
